@@ -11,5 +11,5 @@ export function mul(left: number, right: number): number {
 }
 
 export function clamp(value: number, min: number, max: number): number {
-  return Math.min(max - 1, Math.max(min, value));
+  return Math.min(max, Math.max(min, value));
 }
